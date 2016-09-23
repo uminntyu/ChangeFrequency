@@ -1,11 +1,7 @@
-#ifndef ChangeFrequency_h
-#define ChangeFrequency_h
+
+#pragma once
 
 #include <Arduino.h>
-
-#ifdef __cplusplus
-extern "C"{
-#endif
 
 #define F_TWI      100000
 #define TWI_FASTER 400000
@@ -38,9 +34,3 @@ class ChangeFrequency
   private:
     uint8_t division = DIV_64;
 };
-
-#ifdef __cplusplus
-} // extern "C"
-#endif
-
-#endif ChangeFrequency_h

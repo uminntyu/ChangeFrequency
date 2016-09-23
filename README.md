@@ -9,7 +9,6 @@ ArduinoMegaADKのpwm周波数を変更するためのライブラリ
 * TCCR2 ・・・ 8bitタイマ/カウンタ  
 * TCCR3 ・・・ 16bitタイマ/カウンタ  
 * TCCR4 ・・・ 16bitタイマ/カウンタ  
-* TCCR5 ・・・ 16bitタイマ/カウンタ
 
 ## Get Started
     #include <Arduino.h>
