@@ -1,0 +1,39 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ChangeFrequency	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+millis	    KEYWORD2
+delay 	    KEYWORD2
+setPWMFrequency KEYWORD2
+setTWIFrequency	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+fgUtil	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+TWI_FASTER	LITERAL1
+TWI_SLOWER	LITERAL1
+STOP		LITERAL1
+DIV_1		LITERAL1
+DIV_8		LITERAL1
+DIV_64		LITERAL1
+DIV_256	    LITERAL1
+DIV_1024    LITERAL1
+TIM_0		LITERAL1
+TIM_1		LITERAL1
+TIM_2		LITERAL1
+TIM_3		LITERAL1
+TIM_4		LITERAL1
+TIM_ALL		LITERAL1
