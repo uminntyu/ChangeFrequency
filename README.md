@@ -11,3 +11,21 @@ ArduinoMegaADKのpwm周波数を変更するためのライブラリ
 * TCCR4 ・・・ 16bitタイマ/カウンタ  
 * TCCR5 ・・・ 16bitタイマ/カウンタ
 
+## Get Started
+    #include <Arduino.h>
+    #include "ChangeFrequency.h"
+
+    ChangeFrequency changeFre;
+
+    void setup()
+    {
+      changeFre.setPWMFrequency( TIM_ALL , DIV_8 );
+      analogWrite( 13, 255 );
+    }
+
+    void loop()
+    {
+    }
+    
+
+
